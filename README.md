@@ -1,110 +1,100 @@
-# SyncronAI 🤖
+# Syncro AI — Website Documentation
 
-**SyncronAI** is an AI-powered chatbot platform designed to enhance and automate business applications across different types of businesses and industries.
+## 🚀 Quick Start
 
-It enables businesses to integrate intelligent AI chatbot capabilities into their existing applications, helping improve customer interaction, automate repetitive tasks, and provide faster access to business information.
+**Double-click `START-SERVER.bat`** to launch the website.
 
-## 🚀 Features
-
-- 🤖 AI-powered chatbot
-- 💬 Natural language interaction
-- 🏢 Designed for different business domains
-- 🔌 Integration with existing business applications
-- ⚡ Automated business interactions
-- 📊 Business information and data assistance
-- 🔐 Scalable architecture for business use cases
-
-## 🎯 Purpose
-
-SyncronAI aims to make business applications more intelligent by adding AI-driven conversational capabilities.
-
-Instead of users interacting with business systems through complex interfaces, SyncronAI allows them to interact using natural language.
-
-### Example
-
-A user could ask:
-
-> "Show me today's pending sales orders."
-
-Instead of manually navigating through multiple screens, the AI can understand the request and provide the relevant information through a conversational interface.
-
-## 🏗️ Architecture
-
-SyncronAI is designed to work as an AI layer on top of existing business applications.
-
-```text
-User
-  │
-  ▼
-SyncronAI Chatbot
-  │
-  ▼
-AI / LLM Layer
-  │
-  ▼
-Business Logic & APIs
-  │
-  ▼
-Business Application
-  │
-  ▼
-Database / Business Data
-```
-
-## 💡 Use Cases
-
-SyncronAI can be adapted for various business environments, including:
-
-- Sales & CRM
-- Inventory Management
-- Human Resources
-- Customer Support
-- Finance & Accounting
-- E-commerce
-- Education
-- Service-based businesses
-- Enterprise applications
-
-## 🛠️ Technology
-
-The technology stack may vary depending on the business implementation.
-
-Typical components include:
-
-- **AI / LLM** – Intelligent language processing
-- **Backend** – Business logic and API integration
-- **Frontend** – Chat-based user interface
-- **Database** – Business data storage
-- **REST APIs** – Application integration
-
-## 📦 Project Status
-
-> 🚧 **SyncronAI is currently under active development.**
-
-Features, architecture, and integrations may change as the platform evolves.
-
-## 🔮 Future Plans
-
-- Multi-business support
-- Advanced AI agents
-- Business-specific knowledge bases
-- Document and data analysis
-- Voice-based interaction
-- Automated business workflows
-- Role-based AI assistants
-- Analytics and conversation insights
-- Integration with ERP and CRM systems
-
-## 🤝 Contributing
-
-Contributions, ideas, and suggestions are welcome.
-
-If you would like to contribute, please create an issue or submit a pull request.
-
-## 📄 License
-
-License information will be added as the project develops.
+Then open your browser to: **http://localhost:3000**
 
 ---
 
-**SyncronAI — Making Business Applications Smarter with AI.**
+## 📌 Important URLs
+
+| URL | Description |
+|-----|-------------|
+| `http://localhost:3000` | Main website (public) |
+| `http://localhost:3000/syncro` | Admin panel |
+
+---
+
+## 🔐 Admin Panel
+
+- **URL:** `http://localhost:3000/syncro`
+- **Username:** `syncro`
+- **Password:** `2006`
+
+---
+
+## 📁 Project Structure
+
+```
+Syncro Ai/
+├── server.js              ← Main server entry point
+├── START-SERVER.bat       ← Easy startup script
+├── package.json
+├── data/                  ← JSON database files
+│   ├── settings.json      ← Site config & credentials
+│   ├── services.json      ← Services list
+│   ├── projects.json      ← Case studies
+│   ├── testimonials.json  ← Client reviews
+│   └── inquiries.json     ← Contact form submissions
+├── public/
+│   ├── index.html         ← Main website (SPA)
+│   ├── admin.html         ← Admin panel
+│   └── uploads/
+│       ├── logo/          ← Logo files
+│       └── projects/      ← Uploaded project images
+└── src/
+    └── routes/
+        ├── api.js         ← All API endpoints
+        └── admin.js       ← Admin panel routing
+```
+
+---
+
+## 🎨 Color Palette
+
+- **Black:** `#000000` / `#050a0e` (blue-tinted surfaces)
+- **White:** `#ffffff`
+- **Light Blue:** `#7dd3fc`
+- **Light Blue Bright:** `#bae6fd`
+- **Light Blue Mid:** `#38bdf8`
+- **Deep Blue accent:** `#0c4a6e`
+
+---
+
+## ✨ Features
+
+### Public Website
+- Custom black animated cursor with hover effects
+- Smooth scroll animations (reveal on scroll)
+- Ripple effect on click interactions
+- Randomly shuffled testimonials carousel
+- Randomly shuffled project gallery
+- Services display with animated cards
+- Vision & Mission section
+- Contact form with real database storage
+- 404 page for invalid routes
+- Fully responsive (mobile, tablet, desktop)
+- Animated loading screen
+- Noise texture overlay
+
+### Admin Panel (`/syncro`)
+- Password-protected login
+- **Dashboard:** Stats overview + recent inquiries
+- **Projects:** Add/delete with image upload
+- **Testimonials:** Add/toggle visibility/delete with star ratings
+- **Services:** Full CRUD for all 6 services
+- **Inquiries:** View, read, reply, delete contact form submissions
+- **Settings:** Update site name, tagline, username & password
+
+---
+
+## 🛠 Changing Credentials
+
+In the Admin Panel → Settings → Change Credentials:
+1. Enter current password
+2. Enter new username and/or new password
+3. Click "Update Credentials"
+
+Or manually edit `data/settings.json`.

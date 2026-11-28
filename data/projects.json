@@ -1,0 +1,38 @@
+[
+  {
+    "id": "p1",
+    "title": "AI Email Automation for E-Commerce Giant",
+    "client": "GrowthEdge Retail",
+    "category": "Email Automation",
+    "description": "Built a fully automated AI email response system that handles customer queries, order status updates, refund requests, and complaints. The system uses NLP to understand context and responds with accurate, personalized replies in under 60 seconds.",
+    "results": "85% reduction in email support tickets requiring human intervention, saving 320+ hours/month",
+    "technologies": ["GPT-4", "n8n", "Gmail API", "Zapier", "Airtable"],
+    "image": "",
+    "date": "2026-10-01T00:00:00.000Z",
+    "published": true
+  },
+  {
+    "id": "p2",
+    "title": "WhatsApp AI Booking Agent for Luxury Spa",
+    "client": "Velvet Touch Wellness",
+    "category": "WhatsApp Automation",
+    "description": "Deployed a 24/7 WhatsApp AI agent that manages all appointment bookings, reschedules, and cancellations. Integrated with the spa's scheduling system to provide real-time availability and instant confirmations.",
+    "results": "240% increase in bookings, 100% booking availability outside business hours",
+    "technologies": ["WhatsApp Business API", "Make.com", "OpenAI", "Calendly API"],
+    "image": "",
+    "date": "2026-09-01T00:00:00.000Z",
+    "published": true
+  },
+  {
+    "id": "p3",
+    "title": "End-to-End Logistics Workflow Automation",
+    "client": "Meridian Logistics",
+    "category": "Process Automation",
+    "description": "Automated the complete freight quoting, booking, and tracking workflow. What previously required 2 full-time staff and took 48 hours now runs automatically with real-time updates to all stakeholders.",
+    "results": "48-hour process reduced to real-time, 2 FTE reallocated to strategic roles",
+    "technologies": ["n8n", "Python", "REST APIs", "Slack", "Google Sheets"],
+    "image": "",
+    "date": "2026-08-01T00:00:00.000Z",
+    "published": true
+  }
+]
