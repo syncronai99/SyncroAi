@@ -1,0 +1,62 @@
+[
+  {
+    "id": "t1",
+    "name": "James Hartley",
+    "role": "CEO",
+    "company": "NexaTech Solutions",
+    "rating": 5,
+    "text": "Syncro AI completely transformed our customer support. We went from a 6-hour average response time to under 2 minutes. The WhatsApp automation they built handles 85% of our queries without human involvement. Absolutely game-changing.",
+    "date": "2026-10-15T10:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "t2",
+    "name": "Priya Menon",
+    "role": "Operations Director",
+    "company": "GrowthEdge Retail",
+    "rating": 5,
+    "text": "The workflow automation Syncro AI delivered saved us 400+ hours per month in manual data entry. ROI was visible within the first 30 days. Their team is sharp, responsive, and they actually care about your results.",
+    "date": "2026-09-20T10:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "t3",
+    "name": "Carlos Reyes",
+    "role": "Founder",
+    "company": "Luminary Digital",
+    "rating": 5,
+    "text": "We hired Syncro AI for email automation and ended up transforming our entire onboarding process. The AI knowledge assistant they built for our internal team is phenomenal — new hires get up to speed 3x faster now.",
+    "date": "2026-08-05T10:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "t4",
+    "name": "Amara Osei",
+    "role": "Head of Growth",
+    "company": "Vantage Capital Group",
+    "rating": 5,
+    "text": "Their AI consulting service is worth every penny. They didn't just recommend tools — they mapped our entire business process, identified 12 automation opportunities, and helped us prioritize by ROI. We've already deployed 4 of them.",
+    "date": "2026-07-18T10:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "t5",
+    "name": "Sophie Laurent",
+    "role": "Marketing Lead",
+    "company": "Bloom eCommerce",
+    "rating": 5,
+    "text": "The 24/7 booking agent Syncro AI deployed for us increased our appointment bookings by 240% in just 6 weeks. It handles rescheduling, reminders, and follow-ups automatically. Our team now focuses purely on serving clients.",
+    "date": "2026-06-30T10:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "t6",
+    "name": "Rajan Pillai",
+    "role": "CTO",
+    "company": "Meridian Logistics",
+    "rating": 5,
+    "text": "Syncro AI's process automation eliminated our most painful bottleneck — manual freight quoting that took 2 days now happens in real-time. The team was incredibly professional and delivered ahead of schedule.",
+    "date": "2026-05-12T10:00:00.000Z",
+    "approved": true
+  }
+]
