@@ -21,7 +21,7 @@ Then open your browser to: **http://localhost:3000**
 
 - **URL:** `http://localhost:3000/syncro`
 - **Username:** `syncro`
-- **Password:** `2006`
+- **Password:** `*****`
 
 ---
 
